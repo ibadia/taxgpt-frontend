@@ -13,7 +13,7 @@ axios.defaults.csrfHeaderName = 'X-CSRFToken';
 axios.defaults.withCredentials = true;
 
 const client = axios.create({
-  baseURL: "http://127.0.0.1:8000"
+  baseURL: "http://ec2-54-227-117-90.compute-1.amazonaws.com:8000"
 });
 
 function App() {
